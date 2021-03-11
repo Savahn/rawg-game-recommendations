@@ -21,9 +21,6 @@ const useStyles = makeStyles({
 
 export default ({ book }) => {
   const classes = useStyles();
-  console.log(Images);
-  console.log(book);
-  console.log(Images[book]);
 
   return (
     <Card className={classes.root}>
