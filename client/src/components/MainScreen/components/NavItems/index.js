@@ -6,6 +6,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 // import ListSubheader from '@material-ui/core/ListSubheader';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import StorageIcon from '@material-ui/icons/Storage';
+import MenuBookIcon from '@material-ui/icons/MenuBook';
 // import AssignmentIcon from '@material-ui/icons/Assignment';
 
 export const mainListItems = (
@@ -24,19 +25,19 @@ export const mainListItems = (
     </ListItem>
     <ListItem button component={Link} to='/HeadFirstJavaScript'>
       <ListItemIcon>
-        <StorageIcon />
+        <MenuBookIcon />
       </ListItemIcon>
       <ListItemText primary='Head First JavaScript' />
     </ListItem>
     <ListItem button component={Link} to='/FullStackReact'>
       <ListItemIcon>
-        <StorageIcon />
+        <MenuBookIcon />
       </ListItemIcon>
       <ListItemText primary='Full Stack React' />
     </ListItem>
     <ListItem button component={Link} to='/LearnReactHooks'>
       <ListItemIcon>
-        <StorageIcon />
+        <MenuBookIcon />
       </ListItemIcon>
       <ListItemText primary='Learn React Hooks' />
     </ListItem>
