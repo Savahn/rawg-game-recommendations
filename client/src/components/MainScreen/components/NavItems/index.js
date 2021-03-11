@@ -22,6 +22,24 @@ export const mainListItems = (
       </ListItemIcon>
       <ListItemText primary='Database' />
     </ListItem>
+    <ListItem button component={Link} to='/HeadFirstJavaScript'>
+      <ListItemIcon>
+        <StorageIcon />
+      </ListItemIcon>
+      <ListItemText primary='Head First JavaScript' />
+    </ListItem>
+    <ListItem button component={Link} to='/FullStackReact'>
+      <ListItemIcon>
+        <StorageIcon />
+      </ListItemIcon>
+      <ListItemText primary='Full Stack React' />
+    </ListItem>
+    <ListItem button component={Link} to='/LearnReactHooks'>
+      <ListItemIcon>
+        <StorageIcon />
+      </ListItemIcon>
+      <ListItemText primary='Learn React Hooks' />
+    </ListItem>
   </div>
 );
 

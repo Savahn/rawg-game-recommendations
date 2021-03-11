@@ -1,5 +1,6 @@
 import Dashboard from '../screens/Dashboard';
 import RawgGames from '../screens/RawgGames';
+import BookInfo from '../screens/BookInfo';
 
 const routes = [
   {
@@ -14,6 +15,13 @@ const routes = [
     path: '/database',
     exact: true,
     component: RawgGames,
+    disabled: false,
+  },
+  {
+    id: 'book-info',
+    path: ['/FullStackReact', '/HeadFirstJavaScript', '/LearnReactHooks'],
+    exact: true,
+    component: BookInfo,
     disabled: false,
   },
 ];
